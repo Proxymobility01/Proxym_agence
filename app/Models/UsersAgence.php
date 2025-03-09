@@ -10,7 +10,16 @@ class UsersAgence extends Model
     use HasFactory;
 
     protected $fillable = [
-        'user_agence_unique_id', 'nom','prenom','phone' ,'email',  'password','ville','photo',   'quartier', 'id_role_entite', 'id_agence',
+        'user_agence_unique_id', 
+        'nom',
+        'prenom',
+        'phone' ,
+        'email',  
+        'password',
+        'ville',
+        'photo',   
+        'quartier', 
+        'id_role_entite', 'id_agence',
     ];
 
     // Relation avec le rôle (un utilisateur a un rôle)
